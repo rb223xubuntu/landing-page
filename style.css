@@ -14,11 +14,17 @@ body {
     display: inline;
     background: #1f2937;
     color: #faf9f8;
+    
 }
 
 .header {
     display: flex;
-    
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    align-items: center;
 }
 
 a,
@@ -26,4 +32,5 @@ li {
     text-decoration: none;
     color: white;
     display: inline;
+    
 }
