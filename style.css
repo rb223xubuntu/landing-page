@@ -1,6 +1,6 @@
 * {
     border: 1px solid red;
-    padding: 1px;
+    padding: 2px;
 }
 
 body {
@@ -11,18 +11,19 @@ body {
 
 .header-container {
     display: flex;
+    display: inline;
     background: #1f2937;
     color: #faf9f8;
 }
 
 .header {
     display: flex;
+    
 }
-
 
 a,
 li {
     text-decoration: none;
-    list-style: none;
     color: white;
+    display: inline;
 }
