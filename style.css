@@ -14,12 +14,16 @@ body {
     display: inline;
     background: #1f2937;
     color: #faf9f8;
-    
+
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+}
+
+.logo {
+    display: flex;
 }
 
 .links {
