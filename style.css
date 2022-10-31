@@ -1,12 +1,14 @@
 * {
     border: 1px solid red;
     padding: 2px;
+    box-sizing: border-box;
 }
 
 body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     flex-flow: column wrap;
+    margin: 0px;
 }
 
 .header-container {
@@ -14,11 +16,13 @@ body {
     display: inline;
     background: #1f2937;
     color: #faf9f8;
-
+    padding: 20px 150px 75px 150px;
+    
 }
 
 .header {
     display: flex;
+    margin-bottom: 30px;
     justify-content: space-between;
 }
 
@@ -28,7 +32,12 @@ body {
 
 .links {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    
+}
+
+ul {
+    margin: 0px;
 }
 
 a,
@@ -36,5 +45,39 @@ li {
     text-decoration: none;
     color: white;
     display: inline;
-    
+    font-size: 10px;
+}
+
+.about {
+    display: flex;
+    gap: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: #faf9f8;
+    border: 0px;
+    border-radius: 4px;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.image{
+    display: flex;
 }
