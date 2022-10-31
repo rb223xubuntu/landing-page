@@ -1,6 +1,6 @@
 * {
-    border: 1px solid red;
-    padding: 2px;
+    /*👉border: 1px solid red;
+    padding: 2px;👈*/
     box-sizing: border-box;
 }
 
@@ -46,6 +46,7 @@ li {
     color: white;
     display: inline;
     font-size: 10px;
+    margin-left: 5px;
 }
 
 .about {
@@ -53,15 +54,17 @@ li {
     gap: 20px;
 }
 
-h3 {
-    font-size: 20px;
+h1 {
+    font-size: 30px;
     font-weight: bold;
+    color: #f9faf8;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 p {
     font-size: 10px;
+    color: #e5e7eb;
     margin-top: 10px;
     margin-bottom: 10px;
 }
