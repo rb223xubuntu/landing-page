@@ -1,6 +1,6 @@
 * {
-    /*👉border: 1px solid red;
-    padding: 2px;👈*/
+    border: 1px solid red;
+    padding: 2px;
     box-sizing: border-box;
 }
 
@@ -33,7 +33,6 @@ body {
 .links {
     display: flex;
     align-items: flex-start;
-    
 }
 
 ul {
@@ -52,9 +51,10 @@ li {
 .about {
     display: flex;
     gap: 20px;
+    justify-content: space-between;
 }
 
-h1 {
+.nav-title {
     font-size: 30px;
     font-weight: bold;
     color: #f9faf8;
@@ -62,17 +62,16 @@ h1 {
     margin-bottom: 0;
 }
 
-p {
+.nav-description {
     font-size: 10px;
     color: #e5e7eb;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.sign-up {
+.top-sign-up {
     background-color: #3882f6;
     color: #faf9f8;
-    border: 0px;
     border-radius: 4px;
     padding: 4px 20px;
     text-align: center;
@@ -81,6 +80,106 @@ p {
     font-weight: bold;
 }
 
-.image{
+.header-image {
     display: flex;
+    
+}
+
+.top {
+    padding: 20px 200px 40px 200px;
+}
+
+.some-random-info {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.subtext-image-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    flex-wrap: wrap;
+    /*👉padding: 0px;👈*/
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.coding-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 4px;
+    border: 3px #3882f6;
+    border-style: solid;
+}
+
+.sub-text {
+    font-size: 11px;
+    text-align: center;
+    color: gray;
+    width: 100px;
+}
+
+
+.middle {
+    padding: 50px 210px 50px 210px;
+    background: #e5e7eb;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+}
+
+.signature {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: end;
+}
+
+.bottom {
+    padding: 50px 150px 50px 150px;
+}
+
+.bottom-container1 {
+    box-sizing: border-box;
+    background: #3882f6;
+    color: #f9faf8;
+}
+
+.bottom-container2 {
+    display: flex;
+    padding: 30px 50px
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sign-up-description{
+    font-size: 10px;
+}
+
+.bottom-sign-up {
+    background-color: #3882f6;
+    color: #faf9f8;
+    border: 2px #faf9f8;
+    border-style: solid;
+    border-radius: 4px;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    justify-content: flex-end;
 }
