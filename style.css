@@ -1,8 +1,8 @@
-* {
-    /*👉border: 1px solid red;
+/*👉* {
+    border: 1px solid red;
     padding: 2px;
-    box-sizing: border-box;👈*/
-}
+    box-sizing: border-box;
+}👈*/
 
 body {
     display: flex;
